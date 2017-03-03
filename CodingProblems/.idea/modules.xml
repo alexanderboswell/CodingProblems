@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayLeftRotation/ArrayLeftRotation.iml" filepath="$PROJECT_DIR$/ArrayLeftRotation/ArrayLeftRotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArrayOfInts/ArrayOfInts.iml" filepath="$PROJECT_DIR$/ArrayOfInts/ArrayOfInts.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodingProblems.iml" filepath="$PROJECT_DIR$/CodingProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IsThisABinaryTree/IsThisABinaryTree.iml" filepath="$PROJECT_DIR$/IsThisABinaryTree/IsThisABinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProductOfOtherNumbers/ProductOfOtherNumbers.iml" filepath="$PROJECT_DIR$/ProductOfOtherNumbers/ProductOfOtherNumbers.iml" />
     </modules>
   </component>
