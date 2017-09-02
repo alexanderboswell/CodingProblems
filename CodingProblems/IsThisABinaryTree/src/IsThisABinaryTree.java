@@ -10,23 +10,20 @@ public class IsThisABinaryTree {
         Node left;
         Node right;
     }
-    private boolean check = true;
     boolean checkBST(Node root) {
-
-        if (root.left!=null) {
-            if (root.left.data > root.data)
-                check = false;
-            else
-                checkBST(root.left);
+        return checkData(root, null, null);
+    }
+    boolean checkData(Node n, Integer min, Integer max) {
+        if (n == null) {
+            return true;
         }
-        if(root.right!=null) {
-            if (root.right.data < root.data)
-                check = false;
-            else
-                checkBST(root.right);
+        if((min != null && n.data <= min) || (max != null && n.data > max)) {
+            return false;
         }
-
-        return check;
+        if(!checkData(n.left, min, n.data) || !checkData(n.right, n.data, max)) {
+            return false;
+        }
+        return true;
     }
 
 }
